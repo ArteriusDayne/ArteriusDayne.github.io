@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+}       
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4B515D;
+}
+
+footer.page-footer {
+    background-color: #4B515D;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4B515D;
+    }
+}
+/* Carousel*/
+
+.carousel {
+    height: 75%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+.carousel-item:nth-child(2) {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(3) {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+main {
+    margin-top: 3rem;
+    ;
+}
+
+main .card {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .read-more {
+        text-align: center;
+    }
+}
+
+h1, h4 {
+    color: #CC0000
+}
