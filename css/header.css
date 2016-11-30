@@ -1,8 +1,10 @@
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
+
 html,
 body {
     height: 100%;
-}       
-
+}
 /* Navigation*/
 
 .navbar {
@@ -44,17 +46,21 @@ footer.page-footer {
 }
 
 .carousel-item:nth-child(1) {
+    background-image: url("../img/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.4;
+    filter: brightness(80%);
 }
 
 .carousel-item:nth-child(2) {
+    background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-item:nth-child(3) {
+    background-image: url("../img/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,21 +68,6 @@ footer.page-footer {
 
 .flex-center {
     color: #fff;
-}
-
-main {
-    margin-top: 3rem;
-    ;
-}
-
-main .card {
-    margin-bottom: 2rem;
-}
-
-@media only screen and (max-width: 768px) {
-    .read-more {
-        text-align: center;
-    }
 }
 
 h1, h4 {
