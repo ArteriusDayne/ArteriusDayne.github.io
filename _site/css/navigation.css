@@ -1,9 +1,17 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+
 /* Navigation*/
 
 .navbar {
     background-color: #4B515D;
 }
 
+a {
+    //font-family: 'Pacifico', cursive;
+    color: #e5474b;
+    font-weight: bold;
+}
 .top-nav-collapse {
     background-color: #4B515D;
 }

@@ -163,24 +163,14 @@ header p {
 
 /* Header */
 
-#header .logo {
+
+.navbar-brand {
     font-family: 'Pacifico', cursive;
-    display: inline-block;
-    height: inherit;
-    left: 0;
-    line-height: inherit;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
     color: #e5474b;
-    font-size: 1.75em;
-    text-transform: none;
-    font-weight: normal;
-    padding: 0;
+    font-weight: bold;
 }
 
-#header .logo:hover {
+.navbar-brand:hover {
     color: rgba(229, 71, 75, 0.75);
 }
 
@@ -193,6 +183,14 @@ header p {
 
 .navbar {
     background-color: transparent;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.placeholder {
+    font-weight: bold;
 }
 
 .top-nav-collapse {
